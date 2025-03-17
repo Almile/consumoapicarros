@@ -21,7 +21,7 @@ public class ConsumoApiCarrosApplication implements CommandLineRunner {
         Scanner scan = new Scanner(System.in);
         Gson gson = new Gson();
 
-        System.out.println("HI Ken\n");
+        System.out.println("Seja bem vindo usuário!\n");
 
         String buscaMarcas = ConsomeApiFipe.obterDado("https://parallelum.com.br/fipe/api/v1/carros/marcas");
         System.out.println(buscaMarcas);
